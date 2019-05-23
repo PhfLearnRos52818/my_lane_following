@@ -38,4 +38,6 @@ CMD [ "/bin/bash" ]
 
 ENV DISABLE_CONTRACTS=1
 
-LABEL maintainer="Breandan Considine breandan.considine@umontreal.ca"
+ENTRYPOINT [ "./run_lanefollowingdemo.sh" ]
+
+LABEL maintainer="Pu Hongfan phf.considine@123.cn"
